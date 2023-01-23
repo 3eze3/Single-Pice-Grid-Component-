@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
       rel="stylesheet" />
     <!--  -->
-    <link rel="stylesheet" href="Css/style.css" />
     <link rel="stylesheet" href="resetCss/app.css" />
+    <link rel="stylesheet" href="Css/style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -21,12 +21,47 @@
     <title>Single Price Grid Component</title>
   </head>
   <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+    <main class="card">
+      <section class="card__course course">
+        <article
+          class="course__tutorials course__tutorials--introduction introduction">
+          <h1 class="course__title course__title--introduction">
+            Join our community
+          </h1>
+          <div class="introduction__wrapper">
+            <h2 class="introduction__garantee">
+              30-day, hassle-free money back guarantee
+            </h2>
+            <p class="introduccion__description">
+              Gain access to our full library of tutorials along with expert
+              code reviews. Perfect for any developers who are serious about
+              honing their skills.
+            </p>
+          </div>
+        </article>
+        <article class="course__tutorials course__tutorials--suscription">
+          <h2 class="course__title">Monthly Subscription</h2>
+          <div class="suscription__wrapper">
+            <p class="suscription__price price">
+              $29<span class="price__time">per month</span>
+            </p>
+            <span class="suscription__description">
+              Full access for less than $1 a day
+            </span>
+          </div>
+          <a href="#" class="suscription__signup">Sign Up</a>
+        </article>
+        <article class="course__tutorials course__tutorials--about about">
+          <h2 class="course__title">Why Us</h2>
+          <div class="about__wrapper">
+            <p class="about__description">
+              Tutorials by industry experts Peer &amp; expert code review Coding
+              exercises Access to our GitHub repos Community forum Flashcard
+              decks New videos every week
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
